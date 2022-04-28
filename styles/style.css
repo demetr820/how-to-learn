@@ -21,7 +21,9 @@
   height: 568px;
   width: 568px;
 }
-
+.header__main-ilustration {
+  
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
