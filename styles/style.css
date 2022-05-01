@@ -129,9 +129,76 @@ black: #000; */
   font-weight: 700;
 }
 /* и элемента с модификатором вида ключ-значение */
+
+
+/* Секция "Цифры и факты" */
+.digits {
+  padding: 100px 0;
+}
+.section__title {
+  width: 60%;
+  margin: auto auto 20px;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+.section__title_theme_dark {
+  color: #fff;
+}
+.section__subtitle {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  text-align: center;
+  color: #000;
+}
+.section__subtitle_theme_dark {
+color: #fff;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1100px;
+  padding-top: 60px;
+  margin: 0 auto;
+
+}
+.table__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  /* border: 3px dashed red; */
+}
+.table__cell {
+  display: block;
+  width: 250px;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+.table__heading {
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+.table__text {
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.table__text:last-child {
+  margin-bottom: 0;
+}
+
