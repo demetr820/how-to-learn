@@ -13,6 +13,14 @@
 @import url("../blocks/header/__square-pic/header__square-pic.css");
 @import url("../blocks/header/__main-illustration/header__main-illustration.css");
 
+@import url("../blocks/techniques/techniques.css");
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/cards/__item/cards__item.css");
+@import url("../blocks/cards/__title/cards__title.css");
+@import url("../blocks/cards/__image/cards__image.css");
+@import url("../blocks/cards/__description/cards__description.css");
+@import url("../blocks/oakley/oakley.css");
+
 @import url("../blocks/description/description.css");
 @import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/two-columns/__brief/two-columns__brief.css");
@@ -52,7 +60,88 @@
 @import url("../blocks/footer/__column-links/footer__column-links.css");
 @import url("../blocks/footer/__column-link/footer__column-link.css");
 
-
-.techniques {
-
+.video__iframes {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+.khan__author {
+  font-size: 30px;
+  line-height: 42px;
+}
+.khan {
+  display: flex;
+  justify-content: center;
+}
+.khan__container {
+  width: 80%;
+}
+.khan__title {
+  margin: 0 0 50px 0;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+.khan__quote {
+  width: 790px;
+  margin: 0 0 36px 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+.khan__quote-author {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+.khan__quote-author-subline {
+  margin: 0 0 68px 0;
+  font-size: 24px;
+  line-height: 1.15;
+}
+.khan__book-container {
+  display: flex;
+  padding-top: 68px;
+}
+.khan__book-pic {
+  display: block;
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+}
+.book-pic__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.khan__buy-link {
+  font-size: 30px;
+  line-height: 42px;
+}
+.resources {
+  padding: 100px 0 217px 0;
+}
+.resources__logo-zone {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.resources__logo-zone li {
+  display: block;
+  width: 270px;
+  height: 38px;
+}
+
+
+
+
+
+

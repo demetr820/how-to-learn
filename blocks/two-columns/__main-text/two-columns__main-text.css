@@ -3,6 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 80%;
-  min-width: 784px;
-  min-height: 320px;
+  /* min-width: 784px;
+  min-height: 320px; */
 }
