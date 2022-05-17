@@ -1,5 +1,5 @@
 .section-title {
-  width: 60%;
+  max-width: 60%;
   margin: auto auto 20px;
   font-size: 60px;
   line-height: 1.15;

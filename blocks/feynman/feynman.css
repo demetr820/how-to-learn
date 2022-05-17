@@ -4,9 +4,5 @@
   padding-top: 100px;
   margin: 0 auto;
   box-sizing: border-box;
-  background-color: #f2f2f2;
-  background-image: url("feynman.png");
-  background-size: 867px 637px;
-  background-repeat: no-repeat;
-  background-position: left bottom;
+  background: #f2f2f2 url("feynman.png") left bottom  / 867px 637px no-repeat;
 }

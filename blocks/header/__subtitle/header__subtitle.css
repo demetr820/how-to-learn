@@ -3,7 +3,8 @@
   z-index: 5;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
+  margin: 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
